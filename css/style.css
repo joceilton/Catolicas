@@ -3,19 +3,24 @@
     padding: 0;
 }
 
+audio::-webkit-media-controls-play-button, audio::-webkit-media-controls-panel { background-color: #000; color: #000; }
+
 body {
     background-color: #191919;
     font-size: 14px;
     color: #444;
+    overflow-x: hidden;
 }
 
-header {
+#topo {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px 20px;
     font-size: 20px;
     color: #fff;
+    position: sticky;
+    min-height: 30px;
 }
 
 #slider {
@@ -83,8 +88,15 @@ header {
   background: #f0f0f0;
   margin-right: 15px;
   border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .musicas {
     padding: 5%;
+}
+
+#content {
+    padding: 20px;
 }
