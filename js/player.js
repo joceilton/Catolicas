@@ -1,11 +1,4 @@
 var songsToAdd = [
-  {
-    "name": "Terrain",
-    "artist": "pg.lost",
-    "album": "Key",
-    "url": "https://521dimensions.com/songs/Terrain-pglost.mp3",
-    "cover_art_url": "https://521dimensions.com/img/open-source/amplitudejs/album-art/key.jpg"
-  }
 ];
 
 Amplitude.init({
